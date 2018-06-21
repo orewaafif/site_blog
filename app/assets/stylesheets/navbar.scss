@@ -1,0 +1,23 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.navbar-default {
+  background-color: rgba(255,255,255,0.8) !important;
+  color: black !important;
+  .navbar-nav {
+    li {
+      a {
+          color: black;
+          font-weight: bold;
+        :hover{
+          color: grey;
+        }
+      }
+    }
+  }
+  .navbar-brand{
+    color: rgb(202,0,42);
+    font-size: 20px;
+    font-weight: bold;
+  }
+}

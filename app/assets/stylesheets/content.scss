@@ -1,0 +1,16 @@
+.content{
+  .container-fluid{
+    position: relative;
+    padding-left: 0px;
+    padding-right: 0px;
+    .center-bottom-right{
+      position: absolute;
+      top: 50%;
+      bottom: 30%;
+      left: 10%;
+      h1{
+        font-size: 3rem;
+      }
+    }
+  }
+}
