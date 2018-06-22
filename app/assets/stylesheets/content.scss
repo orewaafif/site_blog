@@ -1,16 +1,31 @@
 .content{
-  .container-fluid{
-    position: relative;
-    padding-left: 0px;
-    padding-right: 0px;
-    .center-bottom-right{
-      position: absolute;
-      top: 50%;
-      bottom: 30%;
-      left: 10%;
-      h1{
-        font-size: 3rem;
-      }
-    }
+  .img-container{
+  position: relative;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
   }
+}
+
+.on-top{
+  position: absolute;
+  top: 45%;
+  left: 13%;
+  width: 45%;
+  text-align: left;
+  font-family: helvetica, arial;
+  color: #4A4A4A;
+}
+
+.img-text{
+  font-size: 32px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.img-text2{
+  // position: absolute;
+  // top: 50%;
+  // left: 15%;
+  font-size: 20px;
 }
