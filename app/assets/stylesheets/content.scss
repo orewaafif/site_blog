@@ -37,6 +37,8 @@
 .container{
   text-align: center;
   position: relative;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 .row{
@@ -49,7 +51,6 @@
   left: 12%;
   max-width: 300px;
   text-align: left;
-  font-family: helvetica, arial;
   color: #4A4A4A;
 }
 
@@ -61,4 +62,8 @@
 
 .img-text2{
   font-size: 1em;
+}
+
+.third-content{
+  background-color: #F5F9FA;
 }
