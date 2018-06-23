@@ -1,31 +1,61 @@
-.content{
-  .img-container{
-  position: relative;
-  text-align: center;
-  margin: 0px;
+.top-content{
   padding: 0px;
+  text-align: center;
+  overflow: hidden;
+  max-height: 700px;
+  position: relative;
+  .img-container{
+    img{
+      min-width: 100%;
+    }
   }
+}
+
+.challenge-item{
+  width: 100%;
+  overflow: hidden;
+  text-align: justify;
+  .challenge-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+  }
+  .content-img{
+    padding-left: auto;
+    padding-right: auto;
+    height: 300px;
+  }
+}
+
+.container{
+  text-align: center;
+  position: relative;
+}
+
+.row{
+  margin-top: 20px;
 }
 
 .on-top{
   position: absolute;
-  top: 45%;
-  left: 13%;
-  width: 45%;
+  top: 42%;
+  left: 12%;
+  max-width: 300px;
   text-align: left;
   font-family: helvetica, arial;
   color: #4A4A4A;
 }
 
 .img-text{
-  font-size: 32px;
+  font-size: 2em;
   font-weight: bold;
   white-space: nowrap;
 }
 
 .img-text2{
-  // position: absolute;
-  // top: 50%;
-  // left: 15%;
-  font-size: 20px;
+  font-size: 1em;
 }
