@@ -14,20 +14,21 @@
 .challenge-item{
   width: 100%;
   overflow: hidden;
-  text-align: justify;
+  text-align: center;
   .challenge-title{
     margin-top: 10px;
     margin-bottom: 10px;
 
     font-size: 20px;
     font-weight: bold;
-    text-align: center;
-
   }
   .content-img{
     padding-left: auto;
     padding-right: auto;
     height: 300px;
+  }
+  p{
+    text-align: justify;
   }
 }
 
